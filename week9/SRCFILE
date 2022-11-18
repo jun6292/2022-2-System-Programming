@@ -1,0 +1,12 @@
+test     start   1000
+first    lda     zero
+         ldx     zero
+cloop    ldch    str1,x
+         stch    str2,x
+         tix     alpha
+         jlt     cloop
+zero     word    0
+alpha    word    5
+str1     byte    c'dgu_cse'
+str2     resb    5
+         end     first
