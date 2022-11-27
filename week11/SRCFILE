@@ -1,0 +1,10 @@
+test     start   1000
+first    lda     zero
+         add     two
+         mul     three
+         sub     one
+zero     word    0
+one      word    1
+two      word    2
+three    word    3
+         end     first
